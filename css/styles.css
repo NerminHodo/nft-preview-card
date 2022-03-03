@@ -1,0 +1,131 @@
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-family: "Outfit", sans-serif;
+  text-align: center;
+}
+.main {
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 10px;
+  display: inline-block;
+  margin-top: 5%;
+  padding: 15px;
+  position: relative;
+  width: 18%;
+}
+p {
+  font-size: 0.875rem;
+}
+h1 {
+  color: hsl(0, 0%, 100%);
+  display: block;
+  font-size: 1.125rem;
+  font-weight: 600;
+  right: 45px;
+  text-align: left;
+}
+hr {
+  border-color: hsl(215, 32%, 27%);
+  border-style: solid none none none;
+}
+.equ-desc {
+  color: hsl(215, 51%, 70%);
+  text-align: left;
+}
+.img-equ {
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+}
+h1:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+.small-icon {
+  position: relative;
+  top: 3px;
+}
+.price-time {
+  position: relative;
+}
+.ETH-price {
+  display: block;
+  text-align: left;
+}
+.time-left {
+  display: block;
+  position: absolute;
+  right: 5%;
+  text-align: right;
+  top: 0;
+}
+.text {
+  display: inline-block;
+  padding-left: 2px;
+}
+.price-text {
+  color: hsl(178, 100%, 50%);
+}
+.time-left-text {
+  color: hsl(215, 51%, 70%);
+}
+.avatar {
+  border-radius: 100%;
+  border: solid 1px white;
+  display: inline-block;
+  position: relative;
+  top: 8px;
+  width: 10%;
+}
+.creator {
+  margin-top: 0;
+  text-align: left;
+}
+.creator-d {
+  color: hsl(215, 51%, 70%);
+  display: inline-block;
+  padding-left: 10px;
+}
+span {
+  color: white;
+}
+span:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+.main-image {
+  position: relative;
+}
+.view-state {
+  background-color: hsl(178, 100%, 50%);
+  border-radius: 0.7rem;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 98.555%;
+}
+.image-view{
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  width: 20%;
+}
+.img-equ:hover + .view-state {
+  cursor: pointer;
+  display: block;
+  opacity: 0.4;
+}
+.view-state:hover {
+  cursor: pointer;
+  display: block;
+  opacity: 0.4;
+}
+
+@media only screen and (max-width: 375px) {
+  
+  .main{
+    width: 80%;
+    margin-top: 50px;
+  }
+}
